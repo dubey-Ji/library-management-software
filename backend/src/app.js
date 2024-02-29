@@ -11,7 +11,7 @@ const { connectDb } = require("./db")
 const { UserModel } = require("./models/user")
 
 const app = express()
-app.use(cors({ origin: "*" }))
+app.use(cors({ origin: "*", methods: ["GET", "PUT", "POST"] }))
 app.use(morgan("dev"))
 app.use(express.json())
 app.use(cookieParser())
