@@ -1,4 +1,4 @@
-const BookApi = {
+export const BookApi = {
   getAllBooks: async () => {
     const res = await fetch("/v1/book", {
       method: "GET",
@@ -35,4 +35,4 @@ const BookApi = {
   },
 }
 
-module.exports = { BookApi }
+// module.exports = { BookApi }

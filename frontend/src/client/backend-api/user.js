@@ -1,4 +1,4 @@
-const UserApi = {
+export const UserApi = {
   borrowBook: async (isbn, userId) => {
     const res = await fetch("/v1/user/borrow", {
       method: "POST",
@@ -43,4 +43,4 @@ const UserApi = {
   },
 }
 
-module.exports = { UserApi }
+// module.exports = { UserApi }

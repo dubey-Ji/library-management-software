@@ -1,9 +1,9 @@
 const { BookApi } = require("./book")
 const { UserApi } = require("./user")
 
-const BackendApi = {
+export const BackendApi = {
   book: BookApi,
   user: UserApi,
 }
 
-module.exports = { BackendApi }
+// module.exports = { BackendApi }
