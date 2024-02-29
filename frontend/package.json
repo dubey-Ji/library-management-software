@@ -9,7 +9,7 @@
     "eject": "react-scripts eject",
     "lint": "prettier --write ."
   },
-  "proxy": "https://library-management-software-sandy.vercel.app",
+  "proxy": "https://library-management-software-akgz39me3.vercel.app/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
