@@ -8,9 +8,10 @@ const sessions = require("express-session")
 const { apiV1 } = require("./routes")
 const { connectDb } = require("./db")
 const { UserModel } = require("./models/user")
+const cors = require("cors")
 
 const app = express()
-
+app.use(cors({ origin: "*" }))
 app.use(morgan("dev"))
 app.use(express.json())
 app.use(cookieParser())
